@@ -174,7 +174,7 @@ class TgBot:
     async def cmd_start(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         start_message = "<b>Бот для получения данных из Google Таблиц</b>\n"
         start_message += "Простой бот, который получает информацию из Google Spreadsheet.\n\n"
-        start_message += "<b>Исходники и руководство:</b> n/a\n"
+        start_message += "<b>Исходники и руководство:</b> https://bit.ly/3WzVOtB\n"
 
         start_message += "\n" + self.help_message()
 
